@@ -58,14 +58,9 @@ Fuel efficiency is an important aspect of vehicle performance. This project aims
 auto-mpg-prediction
 │
 ├── data
-│   ├── raw
-│   │   └── mpg.csv
-│   │
-│   └── processed
-│       └── mpg_clean.csv
+│   └── mpg.csv
 │
-├── notebooks
-│   └── linear_regression_analysis.ipynb
+├──linear_regression_analysis.py
 │
 ├── images
 │   ├── mpg_distribution.png
@@ -76,7 +71,6 @@ auto-mpg-prediction
 │
 ├── README.md
 ├── requirements.txt
-├── LICENSE
 └── .gitignore
 ```
 
@@ -173,10 +167,10 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Run the notebook
+Run Python
 
 ```
-notebooks/linear_regression_analysis.ipynb
+notebooks/linear_regression_analysis.py
 ```
 
 ---
