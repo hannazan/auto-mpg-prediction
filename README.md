@@ -188,6 +188,15 @@ Vehicle weight, horsepower, and production year are among the most influential f
 
 ---
 
+## Documentation
+
+This repository also includes:
+
+- 📑 **Report:** `reports/Auto_MPG_Regression_Report.pdf`
+- 📊 **Presentation:** `reports/Auto_MPG_Regression_Presentation.pdf`
+
+---
+
 ## Author
 
 **Hanna Zahra Nadia**
