@@ -60,8 +60,6 @@ auto-mpg-prediction
 ├── data
 │   └── mpg.csv
 │
-├──linear_regression_analysis.py
-│
 ├── images
 │   ├── mpg_distribution.png
 │   ├── weight_vs_mpg.png
@@ -69,6 +67,7 @@ auto-mpg-prediction
 │   ├── correlation_heatmap.png
 │   └── actual_vs_predicted.png
 │
+├── linear_regression_analysis.py
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -155,22 +154,28 @@ The following preprocessing steps were performed before model training:
 
 ## How to Run
 
-Clone this repository
+### Clone this repository
 
 ```bash
 git clone https://github.com/hannazan/auto-mpg-prediction.git
 ```
 
-Install dependencies
+### Move into the project directory
+
+```bash
+cd auto-mpg-prediction
+```
+
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run Python
+### Run the project
 
-```
-notebooks/linear_regression_analysis.py
+```bash
+python linear_regression_analysis.py
 ```
 
 ---
